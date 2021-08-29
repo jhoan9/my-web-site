@@ -1,0 +1,43 @@
+
+.wrapp-popup{
+    background-color:gray;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.popup-container{
+    align-items: center;
+    background-color: aquamarine;
+    border-radius: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 5%;
+    position: absolute;
+    top: 50%;
+    z-index: 1000;
+
+    & .close-popup{
+        background-color: green;
+        border: 2px solid black;
+        border-radius: 50%;
+        display: flex;
+        font-weight: bolder;
+        height: 25px;
+        justify-content: center;
+        margin-left:95%;
+        position: relative;
+        width: 25px;
+    }
+}
