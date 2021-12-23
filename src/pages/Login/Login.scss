@@ -1,0 +1,50 @@
+.wrapp-login{
+    background-color: blue;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    & .wrapp-header{
+        background-color: blueviolet;
+        display: flex;
+        justify-content: space-between;
+        height: 15%;
+
+        & .container{
+            background-color: chartreuse;
+            width: 30%;
+        }
+
+        & .left{
+            background-color: cornflowerblue;
+            margin: 30px;
+        }
+        & .right{
+            background: cornsilk;
+            margin: 30px;
+        }
+    }
+    & .section-wrapp{
+        background-color: crimson;
+        display: flex;
+        height: 75%;
+        position: relative;
+        width: 100%;
+        & .nav-options{
+            background-color: cyan;
+            height: 100%;
+            width: 25%;
+        }
+        & .info-container{
+            background-color: darkblue;
+            width: 100%;
+        }
+    }
+    & .wrapp-footer{
+        background-color: brown;
+        bottom: 0;
+        height: 10%;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+}
